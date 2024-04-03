@@ -100,7 +100,7 @@ xfwm4
 blueman
 ffmpegthumbnailer  # tumbler - for video thumbnails
 freetype2          # tumbler - for font thumbnails
-gnome-keyring      # fix wlan segfault
+# gnome-keyring      # fix wlan segfault
 libgsf             # tumbler - for ODF thumbnails
 libopenraw         # tumbler - for RAW thumbnails
 # light-locker     # remove it for now as it might double-lock in certain cases
@@ -126,7 +126,7 @@ xfce4-clipman-plugin
 >extra xfce4-netload-plugin
 >extra xfce4-notes-plugin
 xfce4-notifyd
-xfce4-screenshooter
+# xfce4-screenshooter
 >extra xfce4-sensors-plugin
 >extra xfce4-smartbookmark-plugin
 >extra xfce4-systemload-plugin
@@ -158,11 +158,11 @@ bash-completion
 >extra catfish
 dmidecode # optional dependency inxi
 engrampa
->extra firefox
+firefox
 # >extra flashplugin
->extra galculator
+galculator
 gcolor3
->extra gimp
+gimp
 gparted
 gufw
 >extra audacious
@@ -189,7 +189,7 @@ evince
 >extra poppler-data  # CKJ support for pdf
 #>basic sylpheed # mail client
 >extra thunderbird
->extra vlc
+vlc
 >extra viewnior
 >extra xfburn
 >extra yelp
@@ -243,3 +243,13 @@ gtkhash-thunar
 >basic squashfs-tools
 xiccd # enable color profile settings
 #tlp
+
+## Added by Joshua
+bcachefs-tools
+syncthing
+guake
+code
+caffeine-ng
+flameshot
+keepassxc 
+remmina
